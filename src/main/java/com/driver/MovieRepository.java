@@ -100,7 +100,7 @@ public class MovieRepository {
             if(directorMovieMapping.containsKey(director)){
                 List<String> movies = directorMovieMapping.get(director);
                 for(String movieName : movies){
-                    if(movieMap.containsKey(movieName){
+                    if(movieMap.containsKey(movieName)){
                         movieMap.remove(movieName);
                     }
                 }
